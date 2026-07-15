@@ -131,7 +131,7 @@ export default function HeroMockup() {
       <motion.div
         animate={{ y: [0, -8, 0] }}
         transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 0.3 }}
-        className="absolute -bottom-4 -left-4 glass rounded-2xl px-3 py-2 text-[10px] font-medium"
+        className="absolute -bottom-9 -left-4 glass rounded-2xl px-3 py-2  text-[10px] font-medium  "
       >
         <div className="text-ink-soft mb-1">Flow · rag.query</div>
         <div className="flex items-center gap-1">
