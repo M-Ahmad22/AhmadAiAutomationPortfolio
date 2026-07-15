@@ -74,21 +74,54 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
+    // meta: [
+    //   { charSet: "utf-8" },
+    //   { name: "viewport", content: "width=device-width, initial-scale=1" },
+    //   { title: "MAT.ai — AI No-Code / Low-Code Systems Engineer" },
+    //   {
+    //     name: "description",
+    //     content:
+    //       "Portfolio of an AI No-Code / Low-Code Systems Engineer designing voice agents, WhatsApp assistants, RAG systems and enterprise-grade automations with n8n, VAPI, OpenAI and Supabase.",
+    //   },
+    //   { property: "og:title", content: "MAT.ai — AI No-Code / Low-Code Systems Engineer" },
+    //   {
+    //     property: "og:description",
+    //     content: "Voice agents, WhatsApp AI, RAG systems and n8n workflows built for production.",
+    //   },
+    //   { property: "og:type", content: "website" },
+    //   { name: "twitter:card", content: "summary_large_image" },
+    // ],
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "MAT.ai — AI No-Code / Low-Code Systems Engineer" },
+
+      { title: "Muhammad Ahmad Tahir | AI Automation Engineer" },
+
       {
         name: "description",
         content:
-          "Portfolio of an AI No-Code / Low-Code Systems Engineer designing voice agents, WhatsApp assistants, RAG systems and enterprise-grade automations with n8n, VAPI, OpenAI and Supabase.",
+          "Building Voice Agents, RAG Systems, WhatsApp AI Assistants, and Enterprise Automations with n8n, OpenAI, and Supabase.",
       },
-      { property: "og:title", content: "MAT.ai — AI No-Code / Low-Code Systems Engineer" },
+
+      {
+        property: "og:title",
+        content: "Muhammad Ahmad Tahir | AI Automation Engineer",
+      },
       {
         property: "og:description",
-        content: "Voice agents, WhatsApp AI, RAG systems and n8n workflows built for production.",
+        content:
+          "Building Voice Agents, RAG Systems, WhatsApp AI Assistants, and Enterprise Automations with n8n, OpenAI, and Supabase.",
+      },
+      {
+        property: "og:image",
+        content: "https://ahmad-ai-automation-portfolio.vercel.app/og-image.png",
+      },
+      {
+        property: "og:url",
+        content: "https://ahmad-ai-automation-portfolio.vercel.app",
       },
       { property: "og:type", content: "website" },
+
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
