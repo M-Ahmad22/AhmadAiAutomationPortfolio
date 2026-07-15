@@ -77,16 +77,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Noor.ai — AI No-Code / Low-Code Systems Engineer" },
-      { name: "description", content: "Portfolio of an AI No-Code / Low-Code Systems Engineer designing voice agents, WhatsApp assistants, RAG systems and enterprise-grade automations with n8n, VAPI, OpenAI and Supabase." },
-      { property: "og:title", content: "Noor.ai — AI No-Code / Low-Code Systems Engineer" },
-      { property: "og:description", content: "Voice agents, WhatsApp AI, RAG systems and n8n workflows built for production." },
+      { title: "MAT.ai — AI No-Code / Low-Code Systems Engineer" },
+      {
+        name: "description",
+        content:
+          "Portfolio of an AI No-Code / Low-Code Systems Engineer designing voice agents, WhatsApp assistants, RAG systems and enterprise-grade automations with n8n, VAPI, OpenAI and Supabase.",
+      },
+      { property: "og:title", content: "MAT.ai — AI No-Code / Low-Code Systems Engineer" },
+      {
+        property: "og:description",
+        content: "Voice agents, WhatsApp AI, RAG systems and n8n workflows built for production.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/LOGO Group.png", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
